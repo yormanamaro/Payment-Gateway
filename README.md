@@ -13,17 +13,22 @@ What this application will allow is to have a code structure for the implementat
 This application is intended to be a reusable skeleton for project such as online stores on e-commenrce, foundations and any other that needs to raise momnetary income with any currency.
  
 ### Screenshot
-Image Register User:
+Image Boton app:
 
-![](https://github.com/yormanamaro/Tablero-Assignment-backend/blob/main/src/asset/Img1_readme.png)
+![](https://github.com/yormanamaro/Payment-Gateway/blob/main/src/asset/botonPago.png)
 
-Image Login User:
+Image operaciones de pago:
 
-![](https://github.com/yormanamaro/Tablero-Assignment-backend/blob/main/src/asset/img2_readme.png)
+![](https://github.com/yormanamaro/Payment-Gateway/blob/main/src/asset/Opcionespago.png)
 
-Image Dashboard User:
+Image Pagar:
 
-![](https://github.com/yormanamaro/Tablero-Assignment-backend/blob/main/src/asset/img3_readme.png)
+![](https://github.com/yormanamaro/Payment-Gateway/blob/main/src/asset/Pagar.png)
+
+
+Image procesado:
+
+![](https://github.com/yormanamaro/Payment-Gateway/blob/main/src/asset/operacionProcesada.png)
 
 ## Technologies
 ***
@@ -53,11 +58,7 @@ You can collaborate with this project to improve it.
 ## Project Structure
 ***
 It is structured both one part for the frontend and one part for the backend
-1. **This is a Frontend**
- ![](https://github.com/yormanamaro/Tablero-Assignment-backend/blob/main/src/asset/FrontendFile.png)
-* src client: Api-conextion, assets img-fronted, file-components, Context-components and pages  
-* public: img projects
-* Taildwind Configuration
+
 2. __This is a Backend__ 
  ![](https://github.com/yormanamaro/Tablero-Assignment-backend/blob/main/src/asset/BackendFile.png)
 * src file: assets, controller, libs, middleware, models, routes, schemas.
