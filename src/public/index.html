@@ -12,15 +12,15 @@
   </button>
 
   <script>
-    const checkout = document.getElementById("checkout")
-    checkout.addEventListener("click", async () => {
-      const respopnde = await fetch('/create-order', {
-        method: 'POST'
-      })
-      const data = await respopnde.json()
+    const checkoutButton = document.getElementById("checkout")
+    checkoutButton.addEventListener("click", async () => {
+      const res = await fetch("/create-order", {
+        method: "POST", 
+      });
+      const data = await res.json();
       console.log(data)
-      window.location.href = data.init_point
-    })
+      window.location.href = data.init_point;
+    });
   </script>
 
 </body>
